@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+window.saveAs = require('file-saver');
 
 Vue.config.productionTip = false
 
